@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Online-Store",
+        "subtitle": "Mental-Lib",
+        "description": "Multifunctional online store with admin panel",
+        "images": [
+            "assets/img/mental-lib/ml-1.png",
+            "assets/img/mental-lib/ml-2.png",
+            "assets/img/mental-lib/ml-3.png",
+            "assets/img/mental-lib/ml-4.png",
+            "assets/img/mental-lib/ml-5.png",
+            "assets/img/mental-lib/ml-6.png",
+            "assets/img/mental-lib/ml-7.png",
+            "assets/img/mental-lib/ml-8.png"
+        ]
+    },
+    {
+        "title": "Online IT School",
+        "subtitle": "ITNovice",
+        "description": "Multifunctional IT online school with private offices",
+        "images": [
+            "assets/img/itnovice/itn-1.png",
+            "assets/img/itnovice/itn-2.png",
+            "assets/img/itnovice/itn-3.png",
+            "assets/img/itnovice/itn-4.png",
+            "assets/img/itnovice/itn-5.png",
+            "assets/img/itnovice/itn-6.png",
+            "assets/img/itnovice/itn-7.png",
+            "assets/img/itnovice/itn-8.png",
+            "assets/img/itnovice/itn-9.png",
+            "assets/img/itnovice/itn-10.png",
+            "assets/img/itnovice/itn-11.png",
+            "assets/img/itnovice/itn-12.png",
+            "assets/img/itnovice/itn-13.png",
+            "assets/img/itnovice/itn-14.png",
+            "assets/img/itnovice/itn-15.png"
+        ]
+    },
+    {
+        "title": "Social Network",
+        "subtitle": "Hype",
+        "description": "A simple social network with adaptability and functionality",
+        "images": [
+            "assets/img/hype/h-1.png",
+            "assets/img/hype/h-2.png",
+            "assets/img/hype/h-3.png"
+        ]
+    }
+]

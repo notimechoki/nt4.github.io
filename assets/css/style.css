@@ -212,6 +212,9 @@ main{
     top: 0;
     right: -20%;
 }
+.robot3d-img{
+    width: 100%;
+}
 
 
 /* ABOUT */
@@ -517,10 +520,9 @@ main{
         margin-top: 12.5rem;
     }
 
-    .robot-3d{
-        scale: 0.5;
-        top: -25%;
-        right: 0;
+    .robot3d-img{
+        scale: 2;
+        top: 0;
     }
 
     .content{

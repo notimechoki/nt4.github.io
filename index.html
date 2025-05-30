@@ -127,17 +127,28 @@
         const splineContainer = document.getElementById('spline-container');
         let splineLoaded = false;
 
+        const isMobile = window.innerWidth <= 768;
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting && !splineLoaded){
-                    const viewer = document.createElement('spline-viewer');
-                    viewer.className = 'robot-3d';
-                    viewer.setAttribute('url', 'https://prod.spline.design/IoN9VSLDjS0P9kdT/scene.splinecode');
-                    splineContainer.appendChild(viewer);
+                if (entry.isIntersecting && !splineLoaded) {
+                    if (isMobile) {
+                        const img = document.createElement('img');
+                        img.src = 'assets/img/robot3d.png';
+                        img.alt = '3D модель (статичное изображение)';
+                        img.classList.add('robot-3d', 'robot3d-img');
+                        splineContainer.appendChild(img);
+                    } else {
+                        const viewer = document.createElement('spline-viewer');
+                        viewer.className = 'robot-3d';
+                        viewer.setAttribute('url', 'https://prod.spline.design/IoN9VSLDjS0P9kdT/scene.splinecode');
+                        splineContainer.appendChild(viewer);
+                    }
+        
                     splineLoaded = true;
                 }
-
-                else if (!entry.isIntersecting && splineLoaded){
+        
+                else if (!entry.isIntersecting && splineLoaded) {
                     splineContainer.innerHTML = '';
                     splineLoaded = false;
                 }

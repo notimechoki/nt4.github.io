@@ -1,5 +1,18 @@
 [
     {
+        "title": "Beauty salon",
+        "subtitle": "NT4.HAIR",
+        "description": "A simple beauty salon landing page that has everything you need in it",
+        "images": [
+            "assets/img/nt4-hair/nt4-1.png",
+            "assets/img/nt4-hair/nt4-2.png",
+            "assets/img/nt4-hair/nt4-3.png",
+            "assets/img/nt4-hair/nt4-4.png",
+            "assets/img/nt4-hair/nt4-5.png",
+            "assets/img/nt4-hair/nt4-6.png"
+        ]
+    },
+    {
         "title": "Online-Store",
         "subtitle": "Mental-Lib",
         "description": "Multifunctional online store with admin panel",

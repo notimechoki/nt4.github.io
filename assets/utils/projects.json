@@ -61,14 +61,4 @@
             "assets/img/itnovice/itn-15.png"
         ]
     },
-    {
-        "title": "Social Network",
-        "subtitle": "Hype",
-        "description": "A simple social network with adaptability and functionality",
-        "images": [
-            "assets/img/hype/h-1.png",
-            "assets/img/hype/h-2.png",
-            "assets/img/hype/h-3.png"
-        ]
-    }
 ]

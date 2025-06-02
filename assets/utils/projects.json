@@ -13,6 +13,18 @@
         ]
     },
     {
+        "title": "Site Car Wash",
+        "subtitle": "Autowash Center",
+        "description": "A simple carwash website for a car wash center",
+        "images": [
+            "assets/img/сwash/cwash-1.png",
+            "assets/img/сwash/cwash-2.png",
+            "assets/img/сwash/cwash-3.png",
+            "assets/img/сwash/cwash-4.png",
+            "assets/img/сwash/cwash-5.png"
+        ]
+    },
+    {
         "title": "Online-Store",
         "subtitle": "Mental-Lib",
         "description": "Multifunctional online store with admin panel",
